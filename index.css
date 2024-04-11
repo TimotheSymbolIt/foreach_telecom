@@ -69,6 +69,12 @@ h1 {
 	align-items: center;
 }
 
+.header_button:hover,
+#eligibility_button:hover {
+	background-color: #325fcf;
+	cursor: pointer;
+}
+
 .button_label {
 	margin-left: 10px;
 }
