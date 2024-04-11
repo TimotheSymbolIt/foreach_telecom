@@ -197,7 +197,7 @@ nav ul li:hover {
 .service {
 	padding: 10px;
 	margin: 10px;
-    font-weight: bold;
+	font-weight: bold;
 
 	flex-basis: 0;
 	flex-grow: 1;
@@ -210,6 +210,38 @@ nav ul li:hover {
 .service .material-icons {
 	font-size: 50px;
 	margin-bottom: 10px;
+}
+
+/*  */
+
+/* Section 'Internet' */
+
+#internet_section {
+	background-color: rgb(216, 216, 216);
+	padding: 50px 0;
+}
+
+#eligibility_bloc {
+	background-color: #cddbff;
+	padding: 10px;
+	max-width: 1300px;
+	margin: auto;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+#eligibility_text {
+	font-weight: bold;
+}
+
+#eligibility_button {
+	background-color: #4876ea;
+	padding: 10px 15px;
+	color: white;
+	margin-left: 10px;
 }
 
 /*  */
