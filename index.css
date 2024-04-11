@@ -8,10 +8,27 @@ header {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+
+	padding: 10px;
 }
 
 #header_buttons {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.header_button {
+	background-color: #4876ea;
+	margin-left: 10px;
+	padding: 10px 15px;
+	border-radius: 15px;
+	color: white;
+
+	display: flex;
+	align-items: center;
+}
+
+.button_label {
+	margin-left: 10px;
 }
