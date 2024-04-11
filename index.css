@@ -226,6 +226,7 @@ nav ul li:hover {
 	padding: 10px;
 	max-width: 1300px;
 	margin: auto;
+	margin-bottom: 20px;
 
 	display: flex;
 	flex-direction: row;
@@ -242,6 +243,55 @@ nav ul li:hover {
 	padding: 10px 15px;
 	color: white;
 	margin-left: 10px;
+}
+
+#packages {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+	max-width: 1300px;
+	margin: auto;
+	gap: 10px;
+}
+
+.package {
+	background-color: white;
+	padding: 10px;
+	border-radius: 10px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	flex-basis: 0;
+	flex-grow: 1;
+}
+
+.package_description {
+	list-style-type: square;
+}
+
+.package .material-icons-outlined {
+	font-size: 40px;
+	color: #4876ea;
+	margin-bottom: 10px;
+}
+
+.package_title {
+	color: #4876ea;
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.package_price {
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.higher_price {
+	font-size: 25px;
 }
 
 /*  */
