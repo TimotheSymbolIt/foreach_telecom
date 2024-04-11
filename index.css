@@ -123,13 +123,55 @@ nav ul li:hover {
 }
 
 .smartphone {
-	background-color: rgb(85, 201, 85);
+	background-color: white;
 	margin: 10px;
+	border-radius: 10px;
+	padding: 10px;
 	flex-basis: 0;
 	flex-grow: 1;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .container_image {
-	width: 100px;
-	height: 100px;
+	width: 50%;
+	margin: auto;
+	margin-bottom: 10px;
+}
+
+.brand {
+	font-weight: 600;
+}
+
+.smartphone_name {
+	margin: 10px 0;
+	font-weight: bolder;
+	font-size: 20px;
+	color: #4876ea;
+}
+
+.prices {
+	margin-bottom: 10px;
+
+	display: flex;
+}
+
+.alternative_payment {
+	background-color: rgb(195, 195, 195);
+	padding: 5px 10px;
+	border-radius: 20px;
+}
+
+.new_price {
+	font-weight: bolder;
+	font-size: 25px;
+
+	margin-right: 10px;
+}
+
+.old_price {
+	text-decoration: line-through;
+	color: gray;
 }
