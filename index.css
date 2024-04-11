@@ -321,3 +321,19 @@ footer ul {
 }
 
 /*  */
+
+/* Bouton Redirection */
+
+#redirect_button {
+	background: #4876ea;
+	color: white;
+
+	padding: 10px;
+	border-radius: 50px;
+
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+}
+
+/*  */
