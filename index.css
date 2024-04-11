@@ -79,3 +79,14 @@ nav ul li:hover {
 }
 
 /*  */
+
+/* Jumbotron */
+
+#jumbotron {
+	height: 400px;
+    background-image: url(./assets/images/jumbotron_image.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+/*  */
