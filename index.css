@@ -297,3 +297,17 @@ nav ul li:hover {
 }
 
 /*  */
+
+/* Footer */
+
+footer {
+	padding: 20px 0px;
+}
+
+footer ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+/*  */
