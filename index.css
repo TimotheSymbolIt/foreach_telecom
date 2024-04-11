@@ -102,9 +102,24 @@ nav ul li:hover {
 
 /* Section smartphone */
 
+#telephony_section {
+	background-color: rgb(216, 216, 216);
+	padding: 50px 0;
+}
+
+#telephony_section h2 {
+	color: #4876ea;
+	margin-bottom: 30px;
+	text-align: center;
+	font-size: 30px;
+}
+
 #smartphones {
 	display: flex;
 	flex-direction: row;
+
+	max-width: 1300px;
+	margin: auto;
 }
 
 .smartphone {
