@@ -29,6 +29,13 @@ ul {
 	list-style-type: none;
 }
 
+h2 {
+	color: #4876ea;
+	margin-bottom: 30px;
+	text-align: center;
+	font-size: 30px;
+}
+
 /* Header */
 
 header {
@@ -107,13 +114,6 @@ nav ul li:hover {
 	padding: 50px 0;
 }
 
-#telephony_section h2 {
-	color: #4876ea;
-	margin-bottom: 30px;
-	text-align: center;
-	font-size: 30px;
-}
-
 #smartphones {
 	display: flex;
 	flex-direction: row;
@@ -177,3 +177,39 @@ nav ul li:hover {
 	text-decoration: line-through;
 	color: gray;
 }
+
+/*  */
+
+/* Section 'Pourquoi acheter' */
+
+#why_buy {
+	padding: 50px 0;
+}
+
+#services {
+	display: flex;
+	flex-direction: row;
+
+	max-width: 1300px;
+	margin: auto;
+}
+
+.service {
+	padding: 10px;
+	margin: 10px;
+    font-weight: bold;
+
+	flex-basis: 0;
+	flex-grow: 1;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.service .material-icons {
+	font-size: 50px;
+	margin-bottom: 10px;
+}
+
+/*  */
