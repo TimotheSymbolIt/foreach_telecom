@@ -1,12 +1,156 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./index.css">
-    <title>Correction Exercice Evaluation #1</title>
-</head>
-<body>
-    
-</body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./index.css" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
+			rel="stylesheet"
+		/>
+
+		<title>Correction Exercice Evaluation #1</title>
+	</head>
+	<body>
+		<a href="#header" id="redirect_button">
+			<span class="material-icons-outlined"> expand_less </span>
+		</a>
+		<header id="header">
+			<h1>ForEach Telecom</h1>
+			<div id="header_buttons">
+				<div class="header_button">
+					<span class="material-icons-outlined"> storefront </span>
+					<span class="button_label">Boutique</span>
+				</div>
+				<div class="header_button">
+					<span class="material-icons-outlined"> account_circle </span>
+					<span class="button_label">Espace Client</span>
+				</div>
+			</div>
+		</header>
+		<nav>
+			<ul>
+				<li>
+					<a href="#telephony_section">Telephonie</a>
+				</li>
+				<li>
+					<a href="#internet_section">Internet</a>
+				</li>
+			</ul>
+		</nav>
+		<main>
+			<div id="jumbotron"></div>
+			<section id="telephony_section">
+				<h2>Téléphonie</h2>
+				<ul id="smartphones">
+					<li class="smartphone">
+						<div class="container_image">
+							<img
+								src="./assets/images/smartphoneImages/samsung_galaxy_s24.png"
+								alt="Image du smartphone Galaxy S24"
+							/>
+						</div>
+						<span class="brand">Samsung</span>
+						<p class="smartphone_name">Galaxy S24 128 Go</p>
+						<div class="prices">
+							<span class="new_price">709€</span>
+							<span class="old_price">849€</span>
+						</div>
+						<span class="alternative_payment">ou 4x 178,25€ sans frais</span>
+					</li>
+					<li class="smartphone">
+						<div class="container_image">
+							<img
+								src="./assets/images/smartphoneImages/iphone_15.png"
+								alt="Image du smartphone Iphone15"
+							/>
+						</div>
+						<span class="brand">Apple</span>
+						<p class="smartphone_name">Iphone 15 Rose 128 Go</p>
+						<div class="prices">
+							<span class="new_price">859€</span>
+							<span class="old_price">959€</span>
+						</div>
+						<span class="alternative_payment">ou 4x 214,75€ sans frais</span>
+					</li>
+					<li class="smartphone">
+						<div class="container_image">
+							<img
+								src="./assets/images/smartphoneImages/xiaomi_t13_pro.png"
+								alt="Image du smartphone Xiaomi 13"
+							/>
+						</div>
+						<span class="brand">Xiaomi</span>
+						<p class="smartphone_name">T13 1To</p>
+						<div class="prices">
+							<span class="new_price">650€</span>
+							<span class="old_price">789€</span>
+						</div>
+						<span class="alternative_payment">ou 4x 165€ sans frais</span>
+					</li>
+				</ul>
+			</section>
+			<section id="why_buy">
+				<h2>Pourquoi acheter avec ForEach Telecom ?</h2>
+				<ul id="services">
+					<li class="service">
+						<span class="material-icons"> savings </span>
+						<p>Des économies garanties</p>
+					</li>
+					<li class="service">
+						<span class="material-icons"> local_shipping </span>
+						<p>Livraison gratuite</p>
+					</li>
+					<li class="service">
+						<span class="material-icons"> support_agent </span>
+						<p>Conseiller 24/7</p>
+					</li>
+					<li class="service">
+						<span class="material-icons"> verified_user </span>
+						<p>100% sécurisé</p>
+					</li>
+				</ul>
+			</section>
+			<section id="internet_section">
+				<h2>Internet</h2>
+				<div id="eligibility_bloc">
+					<p id="eligibility_text">Plutôt Fibre ou ADSL ?</p>
+					<p id="eligibility_button">Tester votre éligibilité !</p>
+				</div>
+				<ul id="packages">
+					<li class="package">
+						<span class="material-icons-outlined"> wifi </span>
+						<p class="package_title">Forfait ForEach Plus - ADSL</p>
+						<p class="package_price">
+							<span class="higher_price">25€99</span>/mois
+						</p>
+						<ul class="package_description">
+							<li>Accès Haut débit</li>
+							<li>Moyenne atténuation du signal</li>
+							<li>Déployé partout</li>
+						</ul>
+					</li>
+					<li class="package">
+						<span class="material-icons-outlined"> public </span>
+						<p class="package_title">Forfait ForEach Plus - Fibre</p>
+						<p class="package_price">
+							<span class="higher_price">31€99</span> /mois
+						</p>
+						<ul class="package_description">
+							<li>Accès Très Haut débit</li>
+							<li>Moyenne atténuation du signal</li>
+							<li>Déployé predque partout</li>
+						</ul>
+					</li>
+				</ul>
+			</section>
+		</main>
+		<footer>
+			<ul>
+				<li>Informations Légales</li>
+				<li>Données Personnelles</li>
+				<li>Politique des cookies</li>
+			</ul>
+		</footer>
+	</body>
 </html>

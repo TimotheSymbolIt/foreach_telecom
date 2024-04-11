@@ -1,0 +1,339 @@
+@font-face {
+	font-family: Danube;
+	src: url("./assets/fonts/Danube.ttf");
+}
+
+@font-face {
+	font-family: Montserrat;
+	src: url("./assets/fonts/Montserrat.ttf");
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Montserrat;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+}
+
+ul {
+	list-style-type: none;
+}
+
+h2 {
+	color: #4876ea;
+	margin-bottom: 30px;
+	text-align: center;
+	font-size: 30px;
+}
+
+/* Header */
+
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+
+	padding: 10px;
+}
+
+h1 {
+	font-family: Danube;
+	font-size: 25px;
+}
+
+#header_buttons {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.header_button {
+	background-color: #4876ea;
+	margin-left: 10px;
+	padding: 10px 15px;
+	border-radius: 15px;
+	color: white;
+
+	display: flex;
+	align-items: center;
+}
+
+.header_button:hover,
+#eligibility_button:hover {
+	background-color: #325fcf;
+	cursor: pointer;
+}
+
+.button_label {
+	margin-left: 10px;
+}
+
+/* Navbar */
+
+nav {
+	background-color: rgb(216, 216, 216);
+	border-top: 2px solid rgb(195, 195, 195);
+	border-bottom: 2px solid rgb(195, 195, 195);
+}
+
+nav ul {
+	display: flex;
+	flex-direction: row;
+}
+
+nav ul li {
+	padding: 10px;
+}
+
+nav ul li:hover {
+	background-color: rgb(195, 195, 195);
+}
+
+/*  */
+
+/* Jumbotron */
+
+#jumbotron {
+	height: 400px;
+	background-image: url(./assets/images/jumbotron_image.jpg);
+	background-position: center;
+	background-size: cover;
+}
+
+/*  */
+
+/* Section smartphone */
+
+#telephony_section {
+	background-color: rgb(216, 216, 216);
+	padding: 50px 0;
+}
+
+#smartphones {
+	display: flex;
+	flex-direction: row;
+
+	max-width: 1300px;
+	margin: auto;
+}
+
+.smartphone {
+	background-color: white;
+	margin: 10px;
+	border-radius: 10px;
+	padding: 20px;
+	flex-basis: 0;
+	flex-grow: 1;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+		rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.container_image {
+	width: 50%;
+	margin: auto;
+	margin-bottom: 10px;
+}
+
+.brand {
+	font-weight: 600;
+}
+
+.smartphone_name {
+	margin: 10px 0;
+	font-weight: bolder;
+	font-size: 20px;
+	color: #4876ea;
+}
+
+.prices {
+	margin-bottom: 10px;
+
+	display: flex;
+}
+
+.alternative_payment {
+	background-color: rgb(195, 195, 195);
+	padding: 5px 10px;
+	border-radius: 20px;
+}
+
+.new_price {
+	font-weight: bolder;
+	font-size: 25px;
+
+	margin-right: 10px;
+}
+
+.old_price {
+	text-decoration: line-through;
+	color: gray;
+}
+
+/*  */
+
+/* Section 'Pourquoi acheter' */
+
+#why_buy {
+	padding: 50px 0;
+}
+
+#services {
+	display: flex;
+	flex-direction: row;
+
+	max-width: 1300px;
+	margin: auto;
+}
+
+.service {
+	padding: 10px;
+	margin: 10px;
+	font-weight: bold;
+
+	flex-basis: 0;
+	flex-grow: 1;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.service .material-icons {
+	font-size: 50px;
+	margin-bottom: 10px;
+}
+
+/*  */
+
+/* Section 'Internet' */
+
+#internet_section {
+	background-color: rgb(216, 216, 216);
+	padding: 50px 0;
+}
+
+#eligibility_bloc {
+	background-color: #cddbff;
+	padding: 10px;
+	max-width: 1300px;
+	margin: auto;
+	margin-bottom: 20px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+#eligibility_text {
+	font-weight: bold;
+}
+
+#eligibility_button {
+	background-color: #4876ea;
+	padding: 10px 15px;
+	color: white;
+	margin-left: 10px;
+}
+
+#packages {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+
+	max-width: 1300px;
+	margin: auto;
+	gap: 10px;
+}
+
+.package {
+	background-color: white;
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+		rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	flex-basis: 0;
+	flex-grow: 1;
+}
+
+.package_description {
+	list-style-type: square;
+}
+
+.package .material-icons-outlined {
+	font-size: 40px;
+	color: #4876ea;
+	margin-bottom: 10px;
+}
+
+.package_title {
+	color: #4876ea;
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.package_price {
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.higher_price {
+	font-size: 25px;
+}
+
+/*  */
+
+/* Footer */
+
+footer {
+	padding: 20px 0px;
+}
+
+footer ul {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+/*  */
+
+/* Bouton Redirection */
+
+#redirect_button {
+	background: #4876ea;
+	color: white;
+
+	padding: 10px;
+	border-radius: 50px;
+
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+}
+
+/*  */
