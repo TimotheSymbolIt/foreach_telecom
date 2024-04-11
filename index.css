@@ -1,7 +1,18 @@
+@font-face {
+	font-family: Danube;
+	src: url("./assets/fonts/Danube.ttf");
+}
+
+@font-face {
+	font-family: Montserrat;
+	src: url("./assets/fonts/Montserrat.ttf");
+}
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: Montserrat;
 }
 
 header {
@@ -10,6 +21,11 @@ header {
 	justify-content: space-between;
 
 	padding: 10px;
+}
+
+h1 {
+	font-family: Danube;
+	font-size: 25px;
 }
 
 #header_buttons {
