@@ -15,6 +15,13 @@
 	font-family: Montserrat;
 }
 
+a {
+	color: black;
+	text-decoration: none;
+}
+
+/* Header */
+
 header {
 	display: flex;
 	flex-direction: row;
@@ -48,3 +55,26 @@ h1 {
 .button_label {
 	margin-left: 10px;
 }
+
+/* Navbar */
+
+nav {
+	background-color: rgb(216, 216, 216);
+}
+
+nav ul {
+	display: flex;
+	flex-direction: row;
+
+	list-style-type: none;
+}
+
+nav ul li {
+	padding: 10px;
+}
+
+nav ul li:hover {
+	background-color: rgb(195, 195, 195);
+}
+
+/*  */
